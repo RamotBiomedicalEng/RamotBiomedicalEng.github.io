@@ -1236,6 +1236,14 @@ button:focus {
     background-image: url('../assets/images/CostumersLogos/Drive.png');
 }
 
+.idf {
+    background-image: url('../assets/images/CostumersLogos/idf.png');
+}
+
+.hazorfim {
+    background-image: url('../assets/images/CostumersLogos/hazorfim.png');
+}
+
 .top_margin {
     margin-top: 150px;
 }
@@ -1257,4 +1265,16 @@ button:focus {
 
 .navbar_Logo {
     color: white;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.navbar_logo_name {
+    color: white;
+    font-size: 22px;
+    vertical-align: text-bottom;
+}
+
+.margin_top_10 {
+    margin-top: 10px;
 }
