@@ -2,28 +2,28 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url(../../assets/fonts/Roboto-Regular.ttf);
+    src: url(../assets/fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    src: url(../../assets/fonts/Roboto-Bold.ttf);
+    src: url(../assets/fonts/Roboto-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Roboto-Light';
     font-style: normal;
     font-weight: 300;
-    src: url(../../assets/fonts/Roboto-Light.ttf);
+    src: url(../assets/fonts/Roboto-Light.ttf);
 }
 
 @font-face {
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
-    src: url(../../assets/iconfont/MaterialIcons-Regular.ttf);
+    src: url(../assets/iconfont/MaterialIcons-Regular.ttf);
 }
 
 .material-icons {
@@ -102,10 +102,21 @@ button:focus {
 .header--bg {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
-    background: url("../../assets/images/header-background.png") no-repeat;
-    height: 800px;
+    background: url("../assets/images/header-background.png") no-repeat;
+    height: 600px;
     position: relative;
     background-size: cover;
+}
+
+@media screen and (max-width: 450px) {
+    .header--bg {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+        background: url("../assets/images/header-background.png") no-repeat;
+        height: 800px;
+        position: relative;
+        background-size: cover;
+    }
 }
 
 .header--bg:after {
@@ -123,12 +134,12 @@ button:focus {
 
 .header .navbar {
     padding-top: 30px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 @media screen and (max-width: 450px) {
     .header .navbar {
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
 }
 
@@ -151,7 +162,7 @@ button:focus {
 }
 
 .header__content__paragraph {
-    font-size: 16px;
+    font-size: 20px;
     color: #f8f8f8;
     max-width: 530px;
     margin-right: auto;
@@ -406,7 +417,7 @@ button:focus {
 .contact--bg {
     -webkit-clip-path: polygon(0 32%, 100% 10%, 100% 100%, 0% 100%);
     clip-path: polygon(0 32%, 100% 10%, 100% 100%, 0% 100%);
-    background: url("../../assets/images/contact-us-background.png") no-repeat;
+    background: url("../assets/images/contact-us-background.png") no-repeat;
     height: 430px;
     position: relative;
     background-size: cover;
@@ -495,7 +506,7 @@ button:focus {
 .letsGo--bg {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 68%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 68%, 0 100%);
-    background: url("../../assets/images/letsGo-background.png") no-repeat;
+    background: url("../assets/images/letsGo-background.png") no-repeat;
     height: 440px;
     position: relative;
     background-size: cover;
@@ -564,7 +575,7 @@ button:focus {
 .video-section--bg {
     -webkit-clip-path: polygon(0 30%, 100% 5%, 100% 100%, 0 100%);
     clip-path: polygon(0 30%, 100% 5%, 100% 100%, 0 100%);
-    background: url("../../assets/images/handshake-background.png") no-repeat;
+    background: url("../assets/images/handshake-background.png") no-repeat;
     height: 490px;
     position: relative;
     background-size: cover;
@@ -739,7 +750,7 @@ button:focus {
 .overview--bg {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
-    background: url("../../assets/images/overview-background.png") no-repeat;
+    background: url("../assets/images/overview-background.png") no-repeat;
     height: 360px;
     position: relative;
     background-size: cover;
@@ -986,7 +997,6 @@ button:focus {
 .footer--bg {
     -webkit-clip-path: polygon(0 17%, 100% 0%, 100% 100%, 0 100%);
     clip-path: polygon(0 17%, 100% 0%, 100% 100%, 0 100%);
-    height: 650px;
     position: relative;
 }
 
@@ -1171,4 +1181,80 @@ button:focus {
     margin-bottom: 10px;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.companyLogo {
+    color: white;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.customerLogoUl {
+    list-style: none;
+    margin-left: 120px
+}
+
+.customerLogoLi {
+    margin: 10px;
+}
+
+.costumerLogo {
+    background-repeat: no-repeat;
+    height: 80px;
+    padding: 0px;
+}
+
+.biovo {
+    background-image: url('../assets/images/CostumersLogos/Biovo.png');
+}
+
+.auromedics {
+    background-image: url('../assets/images/CostumersLogos/Auromedics.png');
+}
+
+.akcesmed {
+    background-image: url('../assets/images/CostumersLogos/akces-med.png');
+}
+
+.mgt {
+    background-image: url('../assets/images/CostumersLogos/MGT.png');
+}
+
+.polco {
+    background-image: url('../assets/images/CostumersLogos/polco.png');
+}
+
+.wenzelite {
+    background-image: url('../assets/images/CostumersLogos/wenzelite.png');
+}
+
+.mySpiroo {
+    background-image: url('../assets/images/CostumersLogos/myspiroo.png');
+}
+
+.drive {
+    background-image: url('../assets/images/CostumersLogos/Drive.png');
+}
+
+.top_margin {
+    margin-top: 150px;
+}
+
+.fixed_navbar {
+    background-color: #1CBAF9;
+    position: fixed;
+    top: 0;
+    width: 98.8%;
+}
+
+.menu_Il #bootstrap-overrides {
+    color: white;
+}
+
+.menu_Il:hover #bootstrap-overrides {
+    background-color: #5ecef9;
+}
+
+.navbar_Logo {
+    color: white;
 }
